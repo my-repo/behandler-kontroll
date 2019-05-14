@@ -11,8 +11,8 @@ pipeline {
         APPLICATION_NAME = 'behandler-kontroll'
         DISABLE_SLACK_MESSAGES = true
         ZONE = 'fss'
-        DOCKER_SLUG='helse'
-        KUBECONFIG="kubeconfig-teamsykefravr"
+        DOCKER_SLUG='dsop-kontroll'
+        KUBECONFIG="kubeconfig-dsopkontroll"
     }
 
     stages {
